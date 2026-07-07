@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>NAMI Mobile Assessment Comparison</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 18px;
+        background: #020711;
+        color: #e8ebf4;
+        font-family: Manrope, Arial, sans-serif;
+      }
+
+      .comparison {
+        display: grid;
+        grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.45fr) minmax(0, 0.45fr);
+        gap: 18px;
+        align-items: start;
+      }
+
+      figure {
+        margin: 0;
+      }
+
+      figcaption {
+        margin-bottom: 8px;
+        color: #6be7d7;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 1px solid rgba(107, 231, 215, 0.18);
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="comparison">
+      <figure>
+        <figcaption>Source Reference</figcaption>
+        <img src="nami-mobile-reference.png" alt="NAMI mobile design reference" />
+      </figure>
+      <figure>
+        <figcaption>Implementation Scroll 1</figcaption>
+        <img src="nami-mobile-first-scroll.png" alt="Implemented first mobile scroll" />
+      </figure>
+      <figure>
+        <figcaption>Implementation Scroll 2</figcaption>
+        <img src="nami-mobile-second-scroll.png" alt="Implemented second mobile scroll" />
+      </figure>
+    </main>
+  </body>
+</html>
